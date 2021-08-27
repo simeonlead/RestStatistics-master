@@ -18,7 +18,7 @@ public class StatisticsController {
     @Inject
     private IStatisticsService statisticsService;
 
-    // this method add transactions
+    // this method gets transactions
     @RequestMapping(value = "/transactions", method = RequestMethod.GET)
     public ResponseEntity getStatistics(){
         long current = Instant.now().toEpochMilli();
