@@ -132,8 +132,8 @@ To Post statistics :
     Body : raw type with JSON(application/json)
 
     {
-      "amount": 12.3,
-      "timestamp": 1525537016490
+      "amount": 12.3343,
+      "timestamp": "2018-07-17T09:59:312Z"
     }
 
 
